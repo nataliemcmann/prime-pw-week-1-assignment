@@ -19,14 +19,20 @@ body {
 }
 /* Make the header and footer a different color from the background */
 header {
+    background: #444148;
+    color: #eae6ed;
+}
+/* Gave the main sections a different color and background as well as some padding */
+main {
     background: #eae6ed; 
     color: #444148;
+    padding: 2%;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
     text-align: center;
-    font-size: 100px; /* I made the title bigger */
-    padding-top: 5%; /* Brought the title down a bit */
+    font-size: 22px; /* I made the title bigger */
+    padding: 2%; /* I think it looks nicer with padding */
 }
 /* Here I float the section containing my image to the left */
 .image {
@@ -40,8 +46,7 @@ h1 {
     max-width: 50%; /* By setting w or h to auto then max w or h to 50%, */
     max-height: 50%; /* Whichever 50% is met first, the other will be auto */
     margin-left: 30%; /* adding margin to left side of the image so it looks more centered */
-    margin-bottom: 20%; /* adding margin to the bottom too because I think it looks nicer */
-    border: 5px solid #444148; /* now adding a border */
+    border: 3px solid #444148; /* now adding a border */
 }
 
 /* Change the font-family of your list */
@@ -52,11 +57,11 @@ h1 {
 }
 
 .list h2 {
-    font-size: 60px; /* Setting font size */
+    font-size: 15px; /* Setting font size */
 }
 
 .list ul {
-    font-size: 45px; /* Setting font size */
+    font-size: 15px; /* Setting font size */
     margin-right: 12%; /* adding margin to the right*/
 }
 
@@ -69,5 +74,5 @@ footer {
 p {
     color: #eae6ed; /* Changing font color */
     font-style: italic; /* Making font italic */
-    font-size: 45px; /* setting font size */
+    font-size: 15px; /* setting font size */
 }
