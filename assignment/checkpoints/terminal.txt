@@ -9,14 +9,21 @@
 # 4 - What is a quick way to create a new folder?
         mkdir
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
-     In an empty folder, there would be no output after running 'ls. 
+     In an empty folder, there would be no output after running 'ls'. 
      If a folder contains files, then the terminal will list them.
 # 6 - What is a quick way to create a new file?
        touch 
 # 7 - Run 'git --version' in your terminal. What is the output?
        git version 2.33.0        
 # 8 - Why would you run the command 'git status'?
-    
+    Running 'git status' allows you to see file status in relation to your 
+    local Git branch and online GitHub repository. The terminal displays that 
+    your GitHub repository is either up to date or behind the local branch 
+    by a number of commits. The terminal also lists what local branch file 
+    changes have yet to be committed as well as what file changes are not 
+    staged for commit.
 # 9 - What does the command 'git add .' do?
-
+   'git add .' saves or stages all modified files in the local branch. This step 
+   is a prerequisite to commiting modified files.
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+    git push origin main 

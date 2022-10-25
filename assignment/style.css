@@ -1,11 +1,73 @@
+/* I want my list next to my picture so I added a clearfix method */
+/*how to clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+.clearfix { display:  inline-block;}
+*html .clearfix { height: 1%;}
+.clearfix { display: block; }
+/* This will allow me to float my image next to my list */
+
 /* Give your page a fun background color */
-
+body {
+    background: #726c78;
+}
 /* Make the header and footer a different color from the background */
-
+header {
+    background: #eae6ed; 
+    color: #444148;
+}
 /* Align the h1 containing your name in the center of the header*/
-
-/* Make your p tag a different color and italic */
-
+h1 {
+    text-align: center;
+    font-size: 100px; /* I made the title bigger */
+    padding-top: 5%; /* Brought the title down a bit */
+}
+/* Here I float the section containing my image to the left */
+.image {
+    float: left;
+    width: 30%; /* adding width of the section */
+}    
 /* Put a border around your image */
+.image img {
+    width: auto; /* before the border, I make the image smaller */
+    height: auto; /* but want to keep the proportions */
+    max-width: 50%; /* By setting w or h to auto then max w or h to 50%, */
+    max-height: 50%; /* Whichever 50% is met first, the other will be auto */
+    margin-left: 30%; /* adding margin to left side of the image so it looks more centered */
+    margin-bottom: 20%; /* adding margin to the bottom too because I think it looks nicer */
+    border: 5px solid #444148; /* now adding a border */
+}
 
 /* Change the font-family of your list */
+.list {
+    font-family:'Courier New', Courier, monospace;
+    float: right; /* floating again */
+    width: 70% /* and setting the width of the section */
+}
+
+.list h2 {
+    font-size: 60px; /* Setting font size */
+}
+
+.list ul {
+    font-size: 45px; /* Setting font size */
+    margin-right: 12%; /* adding margin to the right*/
+}
+
+/* changed footer background color and added some padding*/
+footer {
+    background: #444148;
+    padding: 2% 5%;
+}
+/* Make your p tag a different color and italic */
+p {
+    color: #eae6ed; /* Changing font color */
+    font-style: italic; /* Making font italic */
+    font-size: 45px; /* setting font size */
+}

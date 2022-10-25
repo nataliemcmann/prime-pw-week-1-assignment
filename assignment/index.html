@@ -4,22 +4,39 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Change the <title> from "Page Title" to "Hello World" -->
-    <title>Page Title</title>
+    <title>Hello World</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
     <!-- Create a header element  -->
-
-    <!-- Inside the header, add an <h1> element containing your name -->
-
+    <header class="site-header clearfix"> <!-- I want put the image next to the list, which requires a clearfix to float-->
+     <!-- Inside the header, add an <h1> element containing your name -->    
+    <h1>Natalie McMann</h1>   
     <!-- Include an image -->
-
+    <section class="image"> 
+       <!-- This image is giant so I have to make it smaller in css --> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Profile_of_an_adult_Araucaria_heterophylla_with_its_roots_system%2C_Auckland-New_Zealand%2C_hand_drawing_Axel_Aucouturier.jpg">   
+    </section>
     <!-- Create an unordered list with 3 list items of fun facts about you -->
-
+    <section class="list"> 
+    <h2>Three Fun Facts About Me</h2>
+    <ul>
+        <li> I know a lot about the vascular system of trees. </li>
+        <li> I'm a crafty person and once built a massive set of ram's horns out of floral wire and paper maché. 
+            I built them for an escape room Halloween party with a Greek mythology theme. </li>
+        <li> I can make soft pretzels from scratch. </li>
+    </ul>
+    </section>
+    </header>
     <!-- Create a footer element -->
-
+    <footer> 
     <!-- Inside your footer, put a <p> element with your favorite quote -->
+    <p>  
+       "As above, so it is below. That which has been, will return again." (Blavatsky, 1877) 
+    </p>        
+    </footer>
+    
 </body>
 </html>
